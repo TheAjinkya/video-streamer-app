@@ -1,8 +1,11 @@
 import React from 'react'
+import ButtonList from './ButtonList'
 
 function MainContainer() {
   return (
-    <div className='col-span-11 p-5 border border-red-500'>MainContainer</div>
+    <div className='col-span-11 p-5'>
+      <ButtonList/>
+    </div>
   )
 }
 
